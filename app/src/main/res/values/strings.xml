@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">QuizApp</string>
+
+    <string name="question_1">1.- What\'s known as the \'Sunshine vitamin\'?</string>
+    <string name="question_2">2.- Is the red color the superior in a rainbow?</string>
+    <string name="question_3">3.- First element in the periodic table?</string>
+    <string name="question_4">4.- Component that makes tonic water feel bitter?</string>
+    <string name="question_5">5.- Which of these are not the same for Fahrenheit and Celsius degrees?</string>
+    <string name="question_6">6.- When is Earth closest to the Sun?</string>
+
+    <string name="question_1_answer_A">A vitamin</string>
+    <string name="question_1_answer_B">B vitamin</string>
+    <string name="question_1_answer_C">C vitamin</string>
+    <string name="question_1_answer_D">D vitamin</string>
+
+    <string name="question_3_correct_answer">Hydrogen</string>
+
+    <string name="question_4_correct_answer">Quinine</string>
+
+    <string name="question_5_answer_A">-40</string>
+    <string name="question_5_answer_B">0</string>
+    <string name="question_5_answer_C">40</string>
+
+    <string name="question_6_answer_A">Winter</string>
+    <string name="question_6_answer_B">Summer</string>
+
+    <string name="answer">Answer</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="send">Send</string>
+    <string name="reset">Reset</string>
+
+    <string name="err_no_answer">No answer for question <xliff:g example="1" id="question_number">%d</xliff:g></string>
+
+    <string name="result_text_correct">Answer for question <xliff:g example="1" id="question_number">%d</xliff:g> is correct!</string>
+    <string name="result_text_not_correct">Answer for question <xliff:g example="1" id="question_number">%d</xliff:g> is not correct.</string>
+    <string name="result_text_no_answer">No answer for question <xliff:g example="1" id="question_number">%d</xliff:g>.</string>
+
+    <string name="quiz_reset">Quiz reset. All answers cleared.</string>
+
+</resources>
