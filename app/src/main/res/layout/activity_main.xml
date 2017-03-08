@@ -23,7 +23,7 @@
                     style="@style/QuestionTextView"
                     android:text="@string/question_1" />
 
-                <RadioGroup style="@style/RadioGroup"
+                <RadioGroup style="@style/RadioGroupFocusable"
                     android:id="@+id/q1_radio_group">
 
                     <RadioButton

@@ -41,11 +41,16 @@
         <item name="android:textColor">@android:color/black</item>
     </style>
 
-    <style name="RadioGroup">
+    <style name="RadioGroupFocusable">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:focusable">true</item>
         <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="RadioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 
     <style name="RadioButton">
