@@ -12,130 +12,130 @@
         style="@style/BackgroundPicture"
         android:src="@drawable/background" />
 
-    <ScrollView style="@style/ScrollView">
+    <ScrollView style="@style/MatchWrap">
 
-        <LinearLayout style="@style/MainLayout">
+        <LinearLayout style="@style/MatchWrap.MainLayout">
 
             <LinearLayout
-                style="@style/QuestionLayout">
+                style="@style/MatchWrap.QuestionLayout">
 
                 <TextView
-                    style="@style/QuestionTextView"
+                    style="@style/MatchWrap.QuestionTextView"
                     android:text="@string/question_1" />
 
-                <RadioGroup style="@style/RadioGroupFocusable"
+                <RadioGroup style="@style/MatchWrap.Focusable"
                     android:id="@+id/q1_radio_group">
 
                     <RadioButton
-                        style="@style/RadioButton"
+                        style="@style/MatchWrap"
                         android:id="@+id/q1_radio_button_A"
                         android:text="@string/question_1_answer_A" />
 
                     <RadioButton
-                        style="@style/RadioButton"
+                        style="@style/MatchWrap"
                         android:id="@+id/q1_radio_button_B"
                         android:text="@string/question_1_answer_B" />
 
                     <RadioButton
-                        style="@style/RadioButton"
+                        style="@style/MatchWrap"
                         android:id="@+id/q1_radio_button_C"
                         android:text="@string/question_1_answer_C" />
 
                     <RadioButton
-                        style="@style/RadioButton"
+                        style="@style/MatchWrap"
                         android:id="@+id/q1_radio_button_D"
                         android:text="@string/question_1_answer_D" />
                 </RadioGroup>
             </LinearLayout>
 
             <LinearLayout
-                style="@style/QuestionLayout">
+                style="@style/MatchWrap.QuestionLayout">
 
                 <TextView
-                    style="@style/QuestionTextView"
+                    style="@style/MatchWrap.QuestionTextView"
                     android:text="@string/question_2" />
 
-                <RadioGroup style="@style/RadioGroup"
+                <RadioGroup style="@style/MatchWrap"
                     android:id="@+id/q2_radio_group">
 
                     <RadioButton
-                        style="@style/RadioButton"
+                        style="@style/MatchWrap"
                         android:id="@+id/q2_radio_button_A"
                         android:text="@string/yes" />
 
                     <RadioButton
-                        style="@style/RadioButton"
+                        style="@style/MatchWrap"
                         android:id="@+id/q2_radio_button_B"
                         android:text="@string/no" />
                 </RadioGroup>
             </LinearLayout>
 
-            <LinearLayout style="@style/QuestionLayout">
+            <LinearLayout style="@style/MatchWrap.QuestionLayout">
 
                 <TextView
-                    style="@style/QuestionTextView"
+                    style="@style/MatchWrap.QuestionTextView"
                     android:text="@string/question_3" />
 
                 <EditText
-                    style="@style/EditText"
+                    style="@style/MatchWrap"
                     android:id="@+id/q3_edit_text"
                     android:hint="@string/answer">
                 </EditText>
             </LinearLayout>
 
-            <LinearLayout style="@style/QuestionLayout">
+            <LinearLayout style="@style/MatchWrap.QuestionLayout">
 
                 <TextView
                     android:id="@+id/q4"
-                    style="@style/QuestionTextView"
+                    style="@style/MatchWrap.QuestionTextView"
                     android:text="@string/question_4" />
 
                 <EditText
-                    style="@style/EditText"
+                    style="@style/MatchWrap"
                     android:id="@+id/q4_edit_text"
                     android:hint="@string/answer">
                 </EditText>
             </LinearLayout>
 
-            <LinearLayout style="@style/QuestionLayout">
+            <LinearLayout style="@style/MatchWrap.QuestionLayout">
 
                 <TextView
-                    style="@style/QuestionTextView"
+                    style="@style/MatchWrap.QuestionTextView"
                     android:text="@string/question_5" />
 
                 <CheckBox
-                    style="@style/CheckBox"
+                    style="@style/MatchWrap"
                     android:id="@+id/q5_check_box_A"
                     android:text="@string/question_5_answer_A" />
 
                 <CheckBox
-                    style="@style/CheckBox"
+                    style="@style/MatchWrap"
                     android:id="@+id/q5_check_box_B"
                     android:text="@string/question_5_answer_B" />
 
                 <CheckBox
-                    style="@style/CheckBox"
+                    style="@style/MatchWrap"
                     android:id="@+id/q5_check_box_C"
                     android:text="@string/question_5_answer_C" />
 
             </LinearLayout>
 
-            <LinearLayout style="@style/QuestionLayout">
+            <LinearLayout style="@style/MatchWrap.QuestionLayout">
 
                 <TextView
-                    style="@style/QuestionTextView"
+                    style="@style/MatchWrap.QuestionTextView"
                     android:text="@string/question_6" />
 
-                <RadioGroup style="@style/RadioGroup"
+                <RadioGroup style="@style/MatchWrap"
                     android:id="@+id/q6_radio_group">
 
                     <RadioButton
-                        style="@style/RadioButton"
+                        style="@style/MatchWrap"
                         android:id="@+id/q6_radio_button_A"
                         android:text="@string/question_6_answer_A" />
 
                     <RadioButton
-                        style="@style/RadioButton"
+                        style="@style/MatchWrap"
                         android:id="@+id/q6_radio_button_B"
                         android:text="@string/question_6_answer_B" />
                 </RadioGroup>

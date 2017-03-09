@@ -8,14 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="ScrollView">
+    <style name="MatchWrap">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="MainLayout">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="MatchWrap.MainLayout">
         <item name="android:orientation">vertical</item>
         <item name="android:padding">@dimen/main_layout_padding</item>
     </style>
@@ -27,45 +25,19 @@
         <item name="android:alpha">0.3</item>
     </style>
 
-    <style name="QuestionLayout">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="MatchWrap.QuestionLayout">
         <item name="android:orientation">vertical</item>
         <item name="android:layout_marginBottom">@dimen/question_layout_margin_bottom</item>
     </style>
 
-    <style name="QuestionTextView">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="MatchWrap.QuestionTextView">
         <item name="android:textSize">@dimen/question_textView_text_size</item>
         <item name="android:textColor">@android:color/black</item>
     </style>
 
-    <style name="RadioGroupFocusable">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
+    <style name="MatchWrap.Focusable">
         <item name="android:focusable">true</item>
         <item name="android:focusableInTouchMode">true</item>
-    </style>
-
-    <style name="RadioGroup">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style>
-
-    <style name="RadioButton">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style>
-
-    <style name="EditText">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style>
-
-    <style name="CheckBox">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
     </style>
 
     <style name="Button">
