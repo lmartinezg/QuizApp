@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">QuizApp</string>
+    <string name="answer">Respuesta</string>
+    <string name="err_no_answer">Sin respuesta para la pregunta <xliff:g example="1" id="question_number">%d</xliff:g></string>
+    <string name="no">No</string>
+    <string name="question_1">1.- ¿Qué se conoce como \"La vitamina del Sol\"?</string>
+    <string name="question_1_answer_A">Vitamina A</string>
+    <string name="question_1_answer_B">Vitamina B</string>
+    <string name="question_1_answer_C">Vitamina C</string>
+    <string name="question_1_answer_D">Vitamina D</string>
+    <string name="question_2">2.- ¿Es el rojo el color en la parte superior del arco iris?</string>
+    <string name="question_3">3.- ¿Primer elemento de la tabla periódica?</string>
+    <string name="question_3_correct_answer">Hidrógeno</string>
+    <string name="question_4">4.- ¿Qué componente da a la tónica su sabor amargo?</string>
+    <string name="question_4_correct_answer">Quinina</string>
+    <string name="question_5">5.- ¿Cuáles de estos valores no son iguales para grados Fahrenheit y Celsius?</string>
+    <string name="question_5_answer_A">-40</string>
+    <string name="question_5_answer_B">0</string>
+    <string name="question_5_answer_C">40</string>
+    <string name="question_6">6.- ¿Cuándo está la Tierra más cerca del Sol?</string>
+    <string name="question_6_answer_A">Invierno</string>
+    <string name="question_6_answer_B">Verano</string>
+    <string name="quiz_reset">Reiniciado. Respuestas borradas.</string>
+    <string name="reset">Reiniciar</string>
+    <string name="result_text_correct">La respuesta para la pregunta <xliff:g example="1" id="question_number">%d</xliff:g> es correcta!</string>
+    <string name="result_text_no_answer">Sin respuesta para la pregunta <xliff:g example="1" id="question_number">%d</xliff:g>.</string>
+    <string name="result_text_not_correct">Respuesta incorrecta para la pregunta <xliff:g example="1" id="question_number">%d</xliff:g>.</string>
+    <string name="send">Enviar</string>
+    <string name="yes">Sí</string>
+</resources>
