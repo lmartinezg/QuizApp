@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/03-QuizApp.iml" filepath="$PROJECT_DIR$/03-QuizApp.iml" />
       <module fileurl="file://$USER_HOME$/Dropbox/LMG/Cursos/udacity/Android Beginner Scholarship/AndroidStudioProjects/QuizApp/QuizApp.iml" filepath="$USER_HOME$/Dropbox/LMG/Cursos/udacity/Android Beginner Scholarship/AndroidStudioProjects/QuizApp/QuizApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$USER_HOME$/Dropbox/LMG/Cursos/udacity/Android Beginner Scholarship/AndroidStudioProjects/QuizApp/app/app.iml" filepath="$USER_HOME$/Dropbox/LMG/Cursos/udacity/Android Beginner Scholarship/AndroidStudioProjects/QuizApp/app/app.iml" />
     </modules>
   </component>

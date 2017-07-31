@@ -1,7 +1,7 @@
 package com.example.android.quizapp;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Called when a button is pressed
+     *
+     * @param myButton The button that was pressed
      */
     public void onButtonPressed(View myButton) {
 
@@ -79,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Prepare and show the results
+     *
+     * @param results Array with the results
      */
     private void showResults(int results[]) {
 
